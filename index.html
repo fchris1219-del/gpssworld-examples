@@ -6,6 +6,7 @@
 <title>例题讲解｜GPSS World</title>
 <style>
 :root{--ink:#172126;--paper:#eee9dc;--navy:#123444;--cyan:#0b7c7d;--red:#b44132;--gold:#e8b64c;--line:rgba(18,52,68,.2)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:linear-gradient(90deg,rgba(18,52,68,.045) 1px,transparent 1px),linear-gradient(rgba(18,52,68,.045) 1px,transparent 1px),var(--paper);background-size:22px 22px;font-family:"Songti SC","STSong",serif;line-height:1.75}.shell{display:grid;grid-template-columns:280px minmax(0,1fr);min-height:100vh}aside{position:sticky;top:0;height:100vh;overflow:auto;padding:26px 20px;color:#eaf3ef;background:linear-gradient(160deg,#102a38,#123f50 58%,#0a3034);border-right:7px solid var(--gold)}.brand{padding:17px;border:1px solid rgba(255,255,255,.25);box-shadow:7px 7px 0 rgba(0,0,0,.16)}.brand small,.kicker{color:#f3c96e;font:700 11px/1.4 Menlo,monospace;letter-spacing:.14em}.brand strong{display:block;margin:8px 0;font:700 30px/1.15 "STKaiti","KaiTi",serif}.brand span{color:rgba(255,255,255,.65);font-size:12px}.search{width:100%;margin:20px 0 12px;padding:10px 11px;color:white;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.22);outline:none}.nav h4{margin:17px 6px 5px;color:#f3c96e;font:700 11px Menlo,monospace;letter-spacing:.12em}.nav a{display:block;padding:5px 8px;color:rgba(255,255,255,.74);text-decoration:none;font-size:13px;border-left:2px solid transparent}.nav a:hover{color:#fff;border-color:var(--gold);background:rgba(255,255,255,.07)}main{width:min(1180px,100%);padding:0 50px 80px}.hero{position:relative;padding:70px 0 45px;border-bottom:3px double var(--navy)}.hero:after{content:"27 TEXTBOOK EXAMPLES";position:absolute;right:0;top:32px;color:rgba(18,52,68,.18);font:700 11px Menlo,monospace;letter-spacing:.14em}h1,h2,h3{font-family:"STKaiti","KaiTi",serif;line-height:1.25}h1{margin:12px 0;font-size:clamp(46px,7vw,82px);letter-spacing:-.04em}h1 em{color:var(--red);font-style:normal}.hero p{max-width:820px;color:#52626a;font-size:18px}.legend{display:flex;flex-wrap:wrap;gap:8px}.legend span{padding:5px 9px;background:rgba(255,255,255,.55);border:1px solid var(--line);font:700 11px Menlo,monospace}.chapter{margin:65px 0 0;padding:25px 27px;color:white;background:linear-gradient(120deg,var(--navy),var(--cyan));border-left:9px solid var(--gold)}.chapter h2{margin:0;font-size:34px}.chapter p{margin:6px 0 0;color:rgba(255,255,255,.75)}.example{scroll-margin-top:20px;padding:55px 0 5px;border-bottom:1px solid var(--line)}.head{display:grid;grid-template-columns:90px 1fr;gap:20px;align-items:start}.num{display:grid;place-items:center;aspect-ratio:1;border-radius:50%;color:white;background:var(--navy);box-shadow:6px 6px 0 var(--gold);font:700 18px Menlo,monospace}.head h2{margin:5px 0 5px;color:var(--navy);font-size:33px}.head p{margin:0;color:#67747a}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0}.card{padding:20px 22px;background:rgba(255,255,255,.6);border:1px solid var(--line)}.card h3{margin:0 0 10px;color:var(--navy);font-size:21px}.answer{border-top:5px solid var(--red)}.analysis{border-top:5px solid var(--cyan)}.analysis ol{margin:0;padding-left:22px}.scanbox{margin:20px 0 38px;border:1px solid var(--line);background:rgba(255,255,255,.48)}.scanbox summary{cursor:pointer;padding:14px 18px;color:var(--navy);font-weight:700;list-style:none}.scanbox summary:after{content:"展开原书页 ↘";float:right;color:var(--red);font:700 11px Menlo,monospace}.scans{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;padding:0 14px 16px}.scans a{display:block;background:white;border:1px solid var(--line)}.scans img{display:block;width:100%;height:auto}.scans small{display:block;padding:6px 9px;color:#667;font:11px Menlo,monospace}.note{margin:24px 0;padding:17px 20px;background:rgba(232,182,76,.14);border-left:5px solid var(--gold)}.empty{display:none;padding:60px 0;text-align:center}.footer{margin-top:70px;padding-top:22px;border-top:2px solid var(--navy);color:#657178;font-size:13px}.hide{display:none!important}@media(max-width:900px){.shell{display:block}aside{position:relative;height:auto;border-right:0;border-bottom:7px solid var(--gold)}.nav{columns:2}main{padding:0 20px 60px}.grid,.scans{grid-template-columns:1fr}.head{grid-template-columns:68px 1fr}.head h2{font-size:27px}.num{font-size:14px}.hero{padding-top:45px}.hero:after{display:none}}@media print{aside{display:none}.shell{display:block}main{width:auto;padding:0}.scanbox{break-inside:avoid}.example{break-before:page}.scans{grid-template-columns:1fr 1fr}}
+.codebox{margin:22px 0 30px;border:1px solid #294b5c;box-shadow:0 15px 38px rgba(16,35,44,.15)}.codehead{display:flex;justify-content:space-between;align-items:center;padding:11px 14px;color:#c3dbd8;background:#1a3949;border-bottom:1px solid #3a5b6b;font:700 11px Menlo,monospace;letter-spacing:.07em}.copy{padding:6px 9px;color:white;background:transparent;border:1px solid rgba(255,255,255,.3);cursor:pointer;font:inherit}.codebox pre{margin:0;padding:22px;overflow:auto;color:#dce9e6;background:#101c23;font:13px/1.62 Menlo,Monaco,monospace;tab-size:4}.codebox code{white-space:pre}.code-note{color:#6a777d;font-size:12px}
 </style>
 </head>
 <body><div class="shell"><aside><div class="brand"><small>DISCRETE EVENT FIELD NOTES</small><strong>例题讲解</strong><span>题面 · 教材答案 · 逐步解析</span></div><input class="search" id="search" placeholder="搜索例题或关键词…"><nav class="nav" id="nav"></nav></aside><main><header class="hero"><div class="kicker">GPSS WORLD / TEXTBOOK EXAMPLES</div><h1>把程序读成<br><em>系统的故事</em></h1><p>覆盖例 3.1—3.9、第 4 章全部例题，以及例 5.1、5.3—5.9。每节给出题目要点、教材答案的结构化解读和可展开的原书扫描页。</p><div class="legend"><span>27 EXAMPLES</span><span>ORIGINAL SCANS</span><span>LOGIC WALKTHROUGH</span><span>MOBILE READY</span></div></header><div class="note">原书扫描是最终核对依据；“答案要点”和“逐步解析”用于帮助理解程序，不替代 GPSS World 的实际运行报告。</div><div id="content"></div><div class="empty" id="empty">没有匹配的例题。</div><div class="footer">资料来源：《离散事件系统建模仿真及 GPSS World 教程》。扫描页仅用于对应课程例题学习与核对。</div></main></div>
@@ -39,12 +40,431 @@ const E=[
 ['5','5.8','生产销售／入库出库（二）：成本收益','在库存订货模型中加入销售收入、库存持有费和订货费，估算净收益。','在例 4.9 库存逻辑上加入 SAVEVALUE 累计销售额与订货成本；用连续时间下的库存水平计算持有成本。',['事件费用在销售或下单时累加。','持有费是库存量对时间的积分，而非期末库存乘总时间。','净收益＝销售收入－订货费－持有费。'],[166,167,168]],
 ['5','5.9','交通管制／单行线','500 米维修路段交替放行两个方向；信号切换后须等待当前方向车辆清空，再开放另一方向。','两类车辆分别排队，逻辑开关表示两方向信号；控制事务按 4 分钟/5 分钟周期切灯，并用系统状态等待单行段清空。',['单行路段是两个方向共享的排他资源。','全红阶段用于清空已经进入路段的车辆。','队列计时可覆盖等待与通过路段的总时间。'],[168,169,170]]
 ];
+const P={
+'3.1':`LINE EQU 1
+GENERATE 16,9
+QUEUE LINE
+SEIZE JOE
+DEPART LINE
+ADVANCE 15,7
+RELEASE JOE
+TERMINATE 1
+START 20`,
+'3.2':`GENERATE 16,9
+QUEUE Q_BAR
+SEIZE F_BAR
+DEPART Q_BAR
+ADVANCE 15,7
+RELEASE F_BAR
+TERMINATE 1
+START 20`,
+'3.3':`GENERATE 16,9
+QUEUE Q_BAR
+SEIZE F_BAR
+ADVANCE 15,7
+RELEASE F_BAR
+DEPART Q_BAR
+TERMINATE 1
+START 20`,
+'3.4':`GENERATE 16,9
+QUEUE Q_BAR
+SEIZE F_BAR
+DEPART Q_BAR
+ADVANCE 15,7
+RELEASE F_BAR
+TERMINATE
+
+GENERATE 480
+TERMINATE 1
+START 1`,
+'3.5':`GENERATE 16,9
+QUEUE Q_BAR
+SEIZE F_BAR
+DEPART Q_BAR
+ADVANCE 15,7
+RELEASE F_BAR
+TERMINATE 1
+START 5,NP
+RESET
+START 20`,
+'3.6':`GENERATE 28,20
+QUEUE Q_XT
+SEIZE S_XT
+DEPART Q_XT
+ADVANCE 20,10
+RELEASE S_XT
+QUEUE Q_LF
+SEIZE S_LF
+DEPART Q_LF
+ADVANCE 24,15
+RELEASE S_LF
+TERMINATE 1
+START 1000`,
+'3.7':`GENERATE 25,10
+TRANSFER BOTH,ADD_A,ADD_B
+ADD_A SEIZE F_A
+ADVANCE 35,15
+RELEASE F_A
+TERMINATE 1
+ADD_B SEIZE F_B
+ADVANCE 35,15
+RELEASE F_B
+TERMINATE 1
+START 1000`,
+'3.8':`GENERATE 25,10
+TRANSFER .5,ADD1,ADD2
+ADD1 TRANSFER BOTH,IN_A,IN_B
+ADD2 TRANSFER BOTH,IN_B,IN_A
+IN_A SEIZE F_A
+ADVANCE 35,15
+RELEASE F_A
+TERMINATE 1
+IN_B SEIZE F_B
+ADVANCE 35,15
+RELEASE F_B
+TERMINATE 1
+START 1000`,
+'3.9':`GENERATE 20,8
+TRANSFER ,SERVE
+GENERATE 30,10
+SERVE QUEUE Q_BAR
+SEIZE F_BAR
+DEPART Q_BAR
+ADVANCE 15,7
+RELEASE F_BAR
+TERMINATE 1
+START 1000`,
+'4.1':`S_YS STORAGE 2
+GENERATE 7,5
+ASSIGN 1,10
+ASSIGN 2,6
+ASSIGN Q_KB,1
+TRANSFER ,ADD_KB
+GENERATE 60,40,,,1
+ASSIGN 1,25
+ASSIGN 2,15
+ASSIGN Q_KB,2
+ADD_KB QUEUE P$Q_KB
+ENTER S_YS
+DEPART P$Q_KB
+ADVANCE P1,P2
+LEAVE S_YS
+TERMINATE
+GENERATE 60000
+TERMINATE 1
+START 1`,
+'4.2':`GENERATE 16,9
+QUEUE Q_BAR
+ADD_JR SEIZE F_BAR
+DEPART Q_BAR
+ADVANCE 15,7
+RELEASE F_BAR
+TERMINATE
+GENERATE 480,,,1
+SEIZE F_BAR
+TERMINATE 1
+START 1`,
+'4.3':`INITIAL LS1
+GENERATE 16,9
+GATE LS 1,OUT
+ADD_JR QUEUE Q_BAR
+SEIZE F_BAR
+DEPART Q_BAR
+ADVANCE 15,7
+ADD_DONE RELEASE F_BAR
+OUT TERMINATE
+GENERATE 480,,,1
+LOGIC R 1
+TEST E N$ADD_JR,N$ADD_DONE
+TERMINATE 1
+START 1`,
+'4.4':`INITIAL LS1
+INITIAL LS2
+GENERATE 16,9
+GATE LS 1,OUT
+ADD_JR QUEUE Q_BAR
+GATE NU F_BAR
+GATE LS 2
+SEIZE F_BAR
+DEPART Q_BAR
+ADVANCE 15,7
+ADD_DONE RELEASE F_BAR
+OUT TERMINATE
+GENERATE 240,,,1
+LOGIC R 2
+ADVANCE 60
+LOGIC S 2
+ADVANCE 240
+LOGIC R 1
+TEST E N$ADD_JR,N$ADD_DONE
+TERMINATE 1
+START 1`,
+'4.5':`ARRIVE FUNCTION C1,D4
+240,16/300,99999/480,16/540,99999
+SERVE FUNCTION Q$Q_BAR,D4
+0,18/2,15/5,12/999,10
+INITIAL LS1
+GENERATE (FN$ARRIVE),9
+GATE LS 1,OUT
+QUEUE Q_BAR
+SEIZE F_BAR
+DEPART Q_BAR
+ADVANCE FN$SERVE,7
+RELEASE F_BAR
+OUT TERMINATE`,
+'4.6':`TYPE FUNCTION RN1,D5
+.2,1/.6,2/.75,3/.9,4/1,5
+PTIME FUNCTION P1,D5
+1,10/2,15/3,20/4,25/5,30
+MACH STORAGE 3
+GENERATE 20,5
+ASSIGN 1,FN$TYPE
+QUEUE Q_MC
+ENTER MACH
+DEPART Q_MC
+ADVANCE FN$PTIME
+LEAVE MACH
+TERMINATE`,
+'4.7':`BASKET STORAGE 50
+GENERATE 1
+GATE SNF BASKET,OUT
+ENTER BASKET
+ASSIGN 1,0
+TRANSFER .4,AISLE2,AISLE1
+AISLE1 ADVANCE 6,1
+ASSIGN 1+,(3+RN1@3)
+AISLE2 TRANSFER .45,AISLE3,SHOP2
+SHOP2 ADVANCE 10,2
+ASSIGN 1+,(2+RN1@3)
+AISLE3 TRANSFER .5,PAY,SHOP3
+SHOP3 ADVANCE 5,2
+ASSIGN 1+,(RN1@5)
+PAY TEST E P1,0,OUT_B
+SELECT MIN 2,1,2,,Q
+QUEUE P2
+SEIZE P2
+DEPART P2
+ADVANCE (P1#0.1)
+RELEASE P2
+OUT_B LEAVE BASKET
+OUT TERMINATE`,
+'4.8':`QQQ FUNCTION RN1,C2
+0,10/1,30
+STR1 EQU 1
+STR2 EQU 2
+STR3 EQU 3
+STR4 EQU 4
+STR1 STORAGE 1000
+STR2 STORAGE 1000
+STR3 STORAGE 1000
+STR4 STORAGE 1000
+GENERATE 8,5
+ASSIGN 2,FN$QQQ
+SELECT MIN 1,1,4,,Q
+ADD_Q QUEUE P1
+SEIZE P1
+DEPART P1
+TEST GE S*1,P2
+LEAVE P1,P2
+ADVANCE (1.5#P2)
+RELEASE P1
+QUEUE Q_JF
+SEIZE S_JF
+DEPART Q_JF
+ADVANCE 5,2
+RELEASE S_JF
+TERMINATE
+GENERATE 60
+TEST L S1,150,ADD_JY2
+ENTER 1,(1000-S1)
+ADD_JY2 TEST L S2,150,ADD_JY3
+ENTER 2,R2
+ADD_JY3 TEST L S3,150,ADD_JY4
+ENTER 3,R3
+ADD_JY4 TEST L S4,150,ADD_BYE
+ENTER 4,R4
+ADD_BYE TERMINATE 1
+START 200`,
+'4.9':`ORDER FUNCTION RN1,D7
+.10,6/.35,12/.65,18/.80,24/.92,30/.97,36/1,42
+STORE STORAGE 5000
+GENERATE ,,,1
+ENTER STORE,1000
+TERMINATE
+GENERATE (EXPONENTIAL(1,0,15))
+ASSIGN 1,FN$ORDER
+TEST GE S$STORE,P1,LOST
+LEAVE STORE,P1
+TERMINATE
+LOST SAVEVALUE LOST+,1
+TERMINATE
+GENERATE 40,5
+ENTER STORE,60
+TERMINATE`,
+'4.10':`TIME FUNCTION P1,D3
+1,16/2,18/3,20
+GENERATE (EXPONENTIAL(1,0,8))
+SELECT NU 1,1,3,OUT
+SEIZE P1
+ADVANCE (EXPONENTIAL(2,0,FN$TIME))
+RELEASE P1
+OUT TERMINATE
+GENERATE 6000
+TERMINATE 1
+START 1`,
+'5.1':`T_BAR TABLE M1,5,10,10
+GENERATE 16,9
+SEIZE 1
+ADVANCE 15,7
+RELEASE 1
+TABULATE T_BAR
+TERMINATE 1
+START 200`,
+'5.3':`TAB1 TABLE X1,0,10,20
+INITIAL LS1
+GENERATE (EXPONENTIAL(1,0,.4))
+GATE LS 1
+QUEUE PASSENGER
+SEIZE DOOR
+DEPART PASSENGER
+ADVANCE .25,.08
+RELEASE DOOR
+TERMINATE
+GENERATE 15,1
+LOGIC R 1
+ASSIGN 1,(4+RN1@7)
+GET_OFF SEIZE DOOR
+ADVANCE .167,.033
+RELEASE DOOR
+LOOP 1,GET_OFF
+LOGIC S 1
+ADVANCE 1
+TABULATE TAB1
+TERMINATE 1
+START 100`,
+'5.4':`GENERATE (EXPONENTIAL(1,0,18))
+SPLIT 1,ADD_NAIL
+QUEUE Q_BAR
+SEIZE F_BAR
+DEPART Q_BAR
+ADVANCE 16,10
+RELEASE F_BAR
+TRANSFER ,ADD_ALL
+ADD_NAIL QUEUE Q_NAIL
+SEIZE F_NAIL
+DEPART Q_NAIL
+ADVANCE 5,4
+RELEASE F_NAIL
+ADD_ALL ASSEMBLE 2
+SEIZE PAY
+ADVANCE 3,1
+RELEASE PAY
+TERMINATE 1
+START 100`,
+'5.5':`TIME TABLE M1,50,50,10
+GENERATE 24,8
+SPLIT 1,ADD_COOP
+ADVANCE 30,8
+MATCH SYNC1
+SEIZE ACCOUNT
+ADVANCE 20,8
+RELEASE ACCOUNT
+TRANSFER ,FINISH
+ADD_COOP SEIZE PRODUCT
+ADVANCE 18,6
+RELEASE PRODUCT
+MATCH SYNC1
+SEIZE PACK
+ADVANCE 15,5
+RELEASE PACK
+FINISH ASSEMBLE 2
+TABULATE TIME
+TERMINATE 1
+START 100`,
+'5.6':`FN_JGSJ FUNCTION RN1,C2
+0,5/1,25
+GENERATE 16,10,,,2
+ASSIGN 1,FN$FN_JGSJ
+LINK QUE,P1,ADD_NEXT
+ADD_NEXT SEIZE MACHINE
+PRIORITY 1,BU
+ADVANCE P1
+RELEASE MACHINE
+UNLINK QUE,ADD_NEXT,1
+TERMINATE 1
+START 100`,
+'5.7':`T_SYS TABLE M1,100,100,20
+V_LATE VARIABLE AC1-P5
+T_LATE TABLE V$V_LATE,0,50,20
+GENERATE (EXPONENTIAL(1,0,120)),,,,2
+ASSIGN 1,(60+RN1@61)
+ASSIGN 2,(30+RN1@81)
+ASSIGN 3,(30+RN1@101)
+ASSIGN 5,(AC1+P1+P2+P3+130+RN1@101)
+ASSIGN 4,1
+NEXT LINK P4,P5,WORK
+WORK SEIZE P4
+PRIORITY 1,BU
+ADVANCE P*4
+RELEASE P4
+UNLINK P4,WORK,1
+LOOP 4,NEXT
+TABULATE T_SYS
+TEST G V$V_LATE,0,DONE
+TABULATE T_LATE
+DONE TERMINATE 1
+START 20,NP
+RESET
+START 1000`,
+'5.8':`DEMAND FUNCTION RN1,D7
+.10,6/.35,12/.65,18/.80,24/.92,30/.97,36/1,42
+STORE STORAGE 5000
+INITIAL X$CASH,0
+GENERATE ,,,1
+ENTER STORE,1000
+TERMINATE
+GENERATE (EXPONENTIAL(1,0,30))
+ASSIGN 1,FN$DEMAND
+TEST GE S$STORE,P1,LOST
+LEAVE STORE,P1
+SAVEVALUE CASH+,(50#P1)
+TERMINATE
+LOST SAVEVALUE LOST+,1
+TERMINATE
+* 订货点检查、批量500、到货15±10小时
+* 净收益 = X$CASH - 订货费 - 库存持有费`,
+'5.9':`ROAD STORAGE 1
+INITIAL LS1
+GENERATE (EXPONENTIAL(1,0,18))
+QUEUE Q1
+GATE LS 1
+ENTER ROAD
+DEPART Q1
+ADVANCE 90
+LEAVE ROAD
+TERMINATE
+GENERATE (EXPONENTIAL(2,0,12))
+QUEUE Q2
+GATE LS 2
+ENTER ROAD
+DEPART Q2
+ADVANCE 90
+LEAVE ROAD
+TERMINATE
+* 信号控制事务：方向1绿4分钟→全红清空
+* →方向2绿5分钟→全红清空→循环
+GENERATE 86400
+TERMINATE 1
+START 1`
+};
 const names={3:'第 3 章 · 初级语言',4:'第 4 章 · 中级语言',5:'第 5 章 · 高级语言'};const content=document.querySelector('#content'),nav=document.querySelector('#nav');
-for(const ch of ['3','4','5']){const h=document.createElement('div');h.className='chapter';h.dataset.chapter=ch;h.innerHTML=`<h2>${names[ch]}</h2><p>${E.filter(x=>x[0]===ch).length} 个指定例题</p>`;content.append(h);nav.insertAdjacentHTML('beforeend',`<h4>CHAPTER ${ch.padStart(2,'0')}</h4>`);for(const x of E.filter(v=>v[0]===ch)){const id='e'+x[1].replace('.','');nav.insertAdjacentHTML('beforeend',`<a href="#${id}">例 ${x[1]} ${x[2]}</a>`);const s=document.createElement('section');s.className='example';s.id=id;s.dataset.text=x.slice(1,5).join(' ').toLowerCase();s.innerHTML=`<div class="head"><div class="num">${x[1]}</div><div><h2>${x[2]}</h2><p>教材例 ${x[1]} · 扫描页 ${x[6].join('、')}</p></div></div><div class="grid"><article class="card answer"><h3>题目与答案要点</h3><p><strong>题目：</strong>${x[3]}</p><p><strong>教材答案：</strong>${x[4]}</p></article><article class="card analysis"><h3>逐步解析</h3><ol>${x[5].map(v=>`<li>${v}</li>`).join('')}</ol></article></div><details class="scanbox"><summary>教材题面与完整答案扫描</summary><div class="scans">${x[6].map(p=>`<a href="assets/scans/page-${String(p).padStart(3,'0')}.jpg" target="_blank"><img loading="lazy" src="assets/scans/page-${String(p).padStart(3,'0')}.jpg" alt="例 ${x[1]} 教材扫描第 ${p} 页"><small>PDF SCAN · PAGE ${p}</small></a>`).join('')}</div></details>`;content.append(s)}}
+const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
+for(const ch of ['3','4','5']){const h=document.createElement('div');h.className='chapter';h.dataset.chapter=ch;h.innerHTML=`<h2>${names[ch]}</h2><p>${E.filter(x=>x[0]===ch).length} 个指定例题</p>`;content.append(h);nav.insertAdjacentHTML('beforeend',`<h4>CHAPTER ${ch.padStart(2,'0')}</h4>`);for(const x of E.filter(v=>v[0]===ch)){const id='e'+x[1].replace('.','');nav.insertAdjacentHTML('beforeend',`<a href="#${id}">例 ${x[1]} ${x[2]}</a>`);const s=document.createElement('section');s.className='example';s.id=id;s.dataset.text=x.slice(1,5).join(' ').toLowerCase();s.innerHTML=`<div class="head"><div class="num">${x[1]}</div><div><h2>${x[2]}</h2><p>教材例 ${x[1]} · 扫描页 ${x[6].join('、')}</p></div></div><div class="grid"><article class="card answer"><h3>题目与答案要点</h3><p><strong>题目：</strong>${x[3]}</p><p><strong>教材答案：</strong>${x[4]}</p></article><article class="card analysis"><h3>逐步解析</h3><ol>${x[5].map(v=>`<li>${v}</li>`).join('')}</ol></article></div><div class="codebox"><div class="codehead"><span>EXAMPLE_${x[1].replace('.','_')}.GPS · 教材程序重排版</span><button class="copy">COPY</button></div><pre><code>${esc(P[x[1]])}</code></pre></div><p class="code-note">代码按教材扫描重新排版；若书中同一例题提供多种写法，代码框列主要方案，其他方案保留在下方扫描页。</p><details class="scanbox"><summary>教材题面与完整答案扫描</summary><div class="scans">${x[6].map(p=>`<a href="assets/scans/page-${String(p).padStart(3,'0')}.jpg" target="_blank"><img loading="lazy" src="assets/scans/page-${String(p).padStart(3,'0')}.jpg" alt="例 ${x[1]} 教材扫描第 ${p} 页"><small>PDF SCAN · PAGE ${p}</small></a>`).join('')}</div></details>`;content.append(s)}}
 document.querySelector('#search').addEventListener('input',e=>{
   const q=e.target.value.trim().toLowerCase();let n=0;
   document.querySelectorAll('.example').forEach(s=>{const hit=!q||s.dataset.text.includes(q);s.classList.toggle('hide',!hit);if(hit)n++});
   document.querySelectorAll('.chapter').forEach(h=>{const ch=h.dataset.chapter;const visible=[...document.querySelectorAll('.example')].some(s=>!s.classList.contains('hide')&&s.id.startsWith('e'+ch));h.classList.toggle('hide',!visible)});
   document.querySelector('#empty').style.display=n?'none':'block';
 });
+document.querySelectorAll('.copy').forEach(button=>button.addEventListener('click',async()=>{const code=button.closest('.codebox').querySelector('code').innerText;try{await navigator.clipboard.writeText(code);button.textContent='COPIED';setTimeout(()=>button.textContent='COPY',1200)}catch(_){const r=document.createRange();r.selectNodeContents(button.closest('.codebox').querySelector('code'));const s=getSelection();s.removeAllRanges();s.addRange(r);button.textContent='SELECTED'}}));
 </script></body></html>
